@@ -1,4 +1,4 @@
-
+// i had to make a few workarounds, and since i dont know anything about nothing, it gave me a headache, i shall sleep now.
 function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
