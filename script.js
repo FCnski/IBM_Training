@@ -12,7 +12,7 @@ function compute()
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
 
-        if (principal <= 0) {
+        if (principal <= 0 || principal == '') {
 
         alert("Enter a positive number, please.")
         document.getElementById("principal").focus()
